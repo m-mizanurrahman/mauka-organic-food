@@ -1,0 +1,23 @@
+.review {
+    background: url('../../asset/Group\ 134.png');
+    background-repeat: no-repeat;
+    background-position: -650px 150px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 1em;
+    font-size: 2vw;
+    color: #00dbd0;
+    cursor: pointer
+}
